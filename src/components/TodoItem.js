@@ -31,6 +31,15 @@ TodoItem.propTypes = {
   todo: PropTypes.object.isRequired
 };
 
+// PropTypes
+TodoItem.propTypes = {
+  todos: PropTypes.array.isRequired,
+  markComplete: PropTypes.func.isRequired,
+  delTodo: PropTypes.func.isRequired,
+
+
+}
+
 const btnStyle = {
     background: '#ff0000',
     color: '#fff',
